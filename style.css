@@ -47,8 +47,8 @@ nav a:hover {
 }
 
 form {
-    background-color: #1e1b4b; 
-    border: 2px solid #5b21b6; 
+    background-color: #465ca1; 
+    border: 2px solid #123cf3; 
     padding: 25px;
     border-radius: 10px;
     max-width: 450px;
@@ -64,11 +64,13 @@ form label {
 }
 
 form input[type="number"], 
-form input[type="text"] {
+form input[type="text"],
+form input[type="password"]
+ {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #5b21b6;
+    border: 1px solid #123cf3; 
     background-color: #0f172a;
     color: #ffffff;
     border-radius: 6px;
@@ -79,7 +81,7 @@ form button,
 form input[type="submit"] {
     width: 100%;
     padding: 12px;
-    background-color: #5b21b6;
+    background-color: #123cf3; 
     color: #eab308;
     border: none;
     border-radius: 6px;
@@ -90,7 +92,7 @@ form input[type="submit"] {
 }
 
 form button:hover {
-    background-color: #7c3aed;
+    background-color: #123cf3; 
     transform: translateY(-2px);
 }
 
@@ -121,7 +123,7 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: #1e1b4b;
+    background-color: #465ca1;
 }
 
 tr:hover {
